@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "975632150157",
+    "firebase_url": "https://vkonnect-66ef4.firebaseio.com",
+    "project_id": "vkonnect-66ef4",
+    "storage_bucket": "vkonnect-66ef4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975632150157:android:c070f6e6d850d166",
+        "android_client_info": {
+          "package_name": "com.example.vkonnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975632150157-k1bkgiied13cb8ge2da2kkeupebvatqq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vkonnect",
+            "certificate_hash": "b08da52d6a06d1a78e9d651cc33fd0bc9a785188"
+          }
+        },
+        {
+          "client_id": "975632150157-f5tdoqro44r4f2vs6stjs6ss5nr15s15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF6nNze3V_hZhIbmOws96i1Nc2VIkKj7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975632150157-f5tdoqro44r4f2vs6stjs6ss5nr15s15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
