@@ -32,28 +32,10 @@ public class MainActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
         currentUser = mAuth.getCurrentUser();
-        mToolbar = (Toolbar) findViewById(R.id.main_page_tool);
-        mToolbar.inflateMenu(R.menu.menu_options);
-        mToolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
-            @Override
-            public boolean onMenuItemClick(MenuItem item) {
-                if (item.getItemId() == R.id.logout) {
-                    mAuth.signOut();
-                    sendUserToLoginPage();
-                    return true;
-                }
-                if (item.getItemId() == R.id.settings) {
-                    return true;
 
-                }
-                if (item.getItemId() == R.id.find_friends_option) {
-                    return true;
+       // mToolbar = (Toolbar) findViewById(R.id.main_page_tool);
+       // mToolbar.inflateMenu(R.menu.menu_options);
 
-                }
-
-                return false;
-            }
-        });
        // setSupportActionBar(mToolbar);
 
         //getSupportActionBar().setTitle("VKonnect");
@@ -85,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-   /* @Override
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
         //super.onCreateOptionsMenu(menu);
@@ -94,9 +76,9 @@ public class MainActivity extends AppCompatActivity {
        // setSupportActionBar(mToolbar);
 
         return true;
-    }*/
+    }
 
-   /* @Override
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
         if (item.getItemId() == R.id.logout) {
@@ -115,5 +97,5 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
 
-    }*/
+    }
 }
